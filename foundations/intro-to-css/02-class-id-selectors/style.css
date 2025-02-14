@@ -1,0 +1,27 @@
+.odd-ele {
+    background-color: #ffc0cb;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.adjust-font-size {
+    font-size: 24px;
+}
+
+#second-ele {
+    color: blue;
+    font-size: 36px;
+}
+
+/*
+    In the id selector 'fourth-ele' below, we could have also
+    added a rule to set the font size to 24px.
+
+    However, since the elements 'Number 3' and 'Number 4'
+    in the HTML file share the same font size, we reused
+    the 'adjust-font-size' class above to help reduce
+    duplicate code.
+*/
+#fourth-ele {
+    background-color: #90ee90;
+    font-weight: bold;
+}
